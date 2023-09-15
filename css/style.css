@@ -13,7 +13,6 @@ ul,
 ol,
 menu {
     list-style: none;
-
 }
 
 img {
@@ -25,6 +24,10 @@ a {
     text-decoration: none;
     color: currentColor;
     display: inline-block;
+}
+
+figure > img {
+    display: block;
 }
 /* palette colori */
 
@@ -99,6 +102,11 @@ a {
 /* header */
 .page-header {
     background-color: var(--blue);
+    color: var(--light);
+}
+
+.hamburger-menu {
+    display: none;
 }
 
 .navbar-list {
@@ -106,6 +114,20 @@ a {
     gap: 22px;
     align-items: center;
 }
+
+/* responsive navbar */
+@media (max-width: 770px) {
+    .container {
+        width: 100%;
+    }
+    .hamburger-menu {
+        display: block;
+    }
+    .navbar-list {
+        display: none;
+    }
+}
+/* hero */
 
 /* debug */
 
