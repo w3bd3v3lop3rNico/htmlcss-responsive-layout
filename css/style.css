@@ -107,9 +107,9 @@ figure > img {
 
 
 
-/* responsive navbar */
+/*after 780 px responsive  */
 @media (min-width: 780px) {
-    
+
     /* default settings */
     .container {
         width: 100%;
@@ -122,13 +122,7 @@ figure > img {
         flex-basis: calc((100% / 12) * 6);
     }
     
-    .col-8 {
-        flex-basis: calc((100% / 12) * 8);
-    }
-    
-    .col-12 {
-        flex-basis: calc((100% / 12) * 12);
-    }
+   
     /* navbar */
 
     .hamburger-menu {
@@ -139,12 +133,46 @@ figure > img {
         gap: 22px;
         align-items: center;
     }
+
+    /* hero */
+
+    img .phone {
+        margin: 0 auto;
+    }
+
+
+
+    
+}
+/* after 570 px responsive */
+@media (min-width: 570px) {
+
+    .col-4 {
+        flex-basis: calc((100% / 12) * 4);
+    }
+     .col-8 {
+        flex-basis: calc((100% / 12) * 8);
+    }
+    
+    .col-12 {
+        flex-basis: calc((100% / 12) * 12);
+    }
+
+    /* hero */
+    .row.card-body {
+        justify-content: flex-start;
+    }
 }
 
 /* hero */
 .card-body {
     background-color: var(--light-blue);
     border-radius: 20px;
+    height: 100%;
+    justify-content: center;
+}
+.card-content {
+    flex-grow: 1;
 }
 .card-icon i {
     display: block;
@@ -165,6 +193,14 @@ figure > img {
 
 .card-text :last-child {
     color: var(--dark-grey);
+}
+.card-layout {
+    padding: 0 10px;
+}
+.phone {
+    width: 200px;
+    height: 280px;
+    display: flex;
 }
 
 /* .card-layout {
