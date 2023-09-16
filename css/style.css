@@ -68,10 +68,13 @@ figure > img {
 
 .justify-between {
     justify-content: space-between;
-}
+}s
 
 .justify-around {
     justify-content: space-around;
+}
+.justify-center {
+    justify-content: center;
 }
 .align-items-center {
     align-items: center;
@@ -270,10 +273,13 @@ figure > img {
 .planning-1-text {
     color: var(--light);
 }
-
-/* .card-layout {
-    row-gap: 20px;
-} */
+/* testimonials */
+.title-1 {
+    text-transform: uppercase;
+}
+.testimonials {
+    text-align: center;
+}
 
 /* debug */
 
