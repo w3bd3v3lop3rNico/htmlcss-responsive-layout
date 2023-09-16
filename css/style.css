@@ -152,6 +152,15 @@ figure > img {
     .col-6 .row {
         flex-grow: 0;
     }
+    /* strategic */
+    .planning-1-img figure {
+        padding:  50px 0px 130px 0;
+    }
+
+    .card-layout.card-planning-2 {
+        padding: 200px 0 15px 50px;
+    }
+
 
 
 
@@ -176,6 +185,7 @@ figure > img {
         justify-content: flex-start;
     }
     /* strategic */
+    
 
 }
 
@@ -278,10 +288,10 @@ figure > img {
     border: 1px solid var(--purple);
     padding: 10px;
 } */
-/* .debug [class^="col"] {
+.debug [class^="col"] {
     border: 1px solid orange;
     padding: 10px;
-} */
+}
 
 /* .debug .strategic-planning {
     height: 100px;
