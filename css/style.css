@@ -251,6 +251,12 @@ figure > img {
     padding-bottom: 20px;
 }
 
+/* Strategic-planning */
+
+.strategic-planning {
+    background-color: var(--purple);
+}
+
 /* .card-layout {
     row-gap: 20px;
 } */
@@ -271,6 +277,10 @@ figure > img {
 /* .debug [class^="col"] {
     border: 1px solid orange;
     padding: 10px;
+} */
+
+/* .debug .strategic-planning {
+    height: 100px;
 } */
 
 
