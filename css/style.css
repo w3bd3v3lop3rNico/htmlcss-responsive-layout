@@ -118,6 +118,9 @@ figure > img {
     .container {
         width: 100%;
     }
+    .container-small {
+        width: 100%;
+    }
     .col-4 {
         flex-basis: calc((100% / 12) * 4);
     }
@@ -167,21 +170,13 @@ figure > img {
     .col-12 {
         flex-basis: calc((100% / 12) * 12);
     }
-    /* navbar */
-
-    /* .hamburger-menu {
-        display: none;
-    }
-    .navbar-list {
-        display: flex;
-        gap: 22px;
-        align-items: center;
-    } */
-
+    
     /* hero */
     .row.card-body {
         justify-content: flex-start;
     }
+    /* strategic */
+
 }
 
 /* hero */
@@ -220,22 +215,24 @@ figure > img {
     align-items: center;
     text-align: center;
     color: var(--blue);
+
 }
 
-.card-text :last-child {
-    color: var(--dark-grey);
+.card-text > .card-title {
+    color: var(--blue);
 }
 
 .card-text {
     line-height: 30px;
     padding-bottom: 20px;
+    color: var(--dark-grey);
 }
 
 .card-lg-left .card-text {
     text-align: left;
 }
 .card-layout {
-    padding: 0 10px;
+    padding: 0 20px;
 }
 .phone {
     width: 200px;
@@ -255,6 +252,13 @@ figure > img {
 
 .strategic-planning {
     background-color: var(--purple);
+}
+
+.planning-1-img {
+    padding: 40px 20px;
+}
+.planning-1-text {
+    color: var(--light);
 }
 
 /* .card-layout {
