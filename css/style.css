@@ -376,6 +376,7 @@ figure > img {
 
 
 
+
 /*after 768 px responsive  */
 @media (min-width: 768px) {
 
@@ -446,6 +447,11 @@ figure > img {
         text-align: left;
     }
 
+    /* about us */
+
+    .cta-linkedin {
+        justify-content: center;
+    }
 }
 
 /*after 992 px responsive  */
