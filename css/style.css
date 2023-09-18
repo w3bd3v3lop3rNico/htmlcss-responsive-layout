@@ -68,19 +68,19 @@ figure > img {
 }
 
 .col-4 {
-    flex-basis: 100%;
+    width: 100%;
 }
     
 .col-6 {
-    flex-basis: 100%;
+    width: 50%;
 }
     
 .col-8 {
-    flex-basis: 100%;
+    width: 100%;
 }
     
 .col-12 {
-    flex-basis: 100%;
+    width: 100%;
 }
 
 /* utility classes */
