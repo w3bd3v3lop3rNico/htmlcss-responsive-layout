@@ -239,11 +239,15 @@ figure > img {
     color: var(--light);
 }
 /* testimonials */
-.title-1 {
-    text-transform: uppercase;
+.card-header-text > [class^='title'] {
+    margin-bottom: 50px;
 }
 .testimonials {
     text-align: center;
+    padding: 50px 0;
+}
+.title-1 {
+    text-transform: uppercase;
 }
 
 /*after 768 px responsive  */
