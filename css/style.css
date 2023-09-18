@@ -60,6 +60,7 @@ figure > img {
 .row {
     display: flex;
     flex-wrap: wrap;
+    row-gap: 20px;
     }
 
 
@@ -78,10 +79,7 @@ figure > img {
 }
 .align-items-center {
     align-items: center;
-}
-.row-gap {
-    row-gap: 20px;
-}
+}   
 .padding-20 {
     padding: 20px;
 }
@@ -102,6 +100,8 @@ figure > img {
 .page-header {
     background-color: var(--blue);
     color: var(--light);
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .hamburger-menu {
@@ -249,10 +249,13 @@ figure > img {
 }
 .phone {
     width: 200px;
-    height: 280px;
+    height: 250px;
 }
 .card-img {
     padding: 20px 20px 0 20px;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
 }
 .col-8 .card-body {
     padding-bottom: 0;
@@ -294,10 +297,10 @@ figure > img {
     border: 1px solid var(--purple);
     padding: 10px;
 } */
-.debug [class^="col"] {
+/* .debug [class^="col"] {
     border: 1px solid orange;
     padding: 10px;
-}
+} */
 
 /* .debug .strategic-planning {
     height: 100px;
