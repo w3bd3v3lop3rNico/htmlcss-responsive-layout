@@ -64,24 +64,24 @@ figure > img {
     }
 
 .row > [class^="col"] {
-        padding: 0 20px;
-    }
+    padding: 0 20px;
+}
 
 .col-4 {
-        flex-basis: 100%;
-    }
+    flex-basis: 100%;
+}
     
 .col-6 {
-        flex-basis: 100%;
-    }
+    flex-basis: 100%;
+}
     
 .col-8 {
-        flex-basis: 100%;
-    }
+    flex-basis: 100%;
+}
     
 .col-12 {
-        flex-basis: 100%;
-    }
+    flex-basis: 100%;
+}
 
 /* utility classes */
 
@@ -123,32 +123,62 @@ figure > img {
 }
 
 .hamburger-menu {
-    display: block;
+    font-size: 32px;
 }
+
 .navbar-list {
     display: none;
-
+    gap: 22px;
+    align-items: center;
 }
 
 /* hero */
-.card-body {
-    background-color: var(--light-blue);
-    border-radius: 20px;
-    height: 100%;
-    justify-content: center;
-    padding:20px;
+.hero {
+    padding-top: 50px;
+	padding-bottom: 80px;
 }
 
-.card-content {
-    flex-grow: 1;
+/* hero card */
+
+[class^='col'] > .card {
+	height: 100%;
 }
+
+.card-layout.card-body > * {
+    width: 100%;
+}
+
+.card-body {
+    background-color: var(--light-blue);
+    padding:20px;
+}  
+
+.card-layout {
+    border-radius: 20px;
+    justify-content: center;
+    height: 100%;
+}
+
+.card-body .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: var(--blue);
+}
+
 .card-icon i {
     display: block;
     font-size: 70px;
     color: var(--blue);
 }
+
 .card-icon {
     padding-bottom: 20px;
+}
+
+.card-text > .card-title {
+    color: var(--blue);
 }
 
 .card-button {
@@ -160,18 +190,6 @@ figure > img {
     color: var(--light);
     padding: 0 70px;
 
-}
-.card-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    color: var(--blue);
-
-}
-
-.card-text > .card-title {
-    color: var(--blue);
 }
 
 .card-text {
