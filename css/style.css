@@ -283,6 +283,17 @@ figure > img {
 
 /* benefits */
 
+.benefits {
+    background-color: var(--purple);
+    padding: 20px 0;
+}
+
+.benefits-title {
+    color: var(--light);
+    text-align: center;
+    margin: 10px 0 20px;
+}
+
 /*after 768 px responsive  */
 @media (min-width: 768px) {
 
