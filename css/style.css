@@ -60,16 +60,34 @@ figure > img {
 .row {
     display: flex;
     flex-wrap: wrap;
-    row-gap: 20px;
+    row-gap: 24px;
     }
 
+.row > [class^="col"] {
+        padding: 0 20px;
+    }
 
+.col-4 {
+        flex-basis: 100%;
+    }
+    
+.col-6 {
+        flex-basis: 100%;
+    }
+    
+.col-8 {
+        flex-basis: 100%;
+    }
+    
+.col-12 {
+        flex-basis: 100%;
+    }
 
 /* utility classes */
 
 .justify-between {
     justify-content: space-between;
-}s
+}
 
 .justify-around {
     justify-content: space-around;
@@ -112,86 +130,6 @@ figure > img {
 
 }
 
-
-
-/*after 780 px responsive  */
-@media (min-width: 780px) {
-
-    /* default settings */
-    .container {
-        width: 100%;
-    }
-    .container-small {
-        width: 100%;
-    }
-    .col-4 {
-        flex-basis: calc((100% / 12) * 4);
-    }
-    
-    .col-6 {
-        flex-basis: calc((100% / 12) * 6);
-    }
-    
-   
-    /* navbar */
-
-    .hamburger-menu {
-        display: none;
-    }
-    .navbar-list {
-        display: flex;
-        gap: 22px;
-        align-items: center;
-    }
-
-    /* hero */
-
-    img.phone {
-        margin: 0 auto;
-    }
-    .card-button {
-        flex-grow: 2;
-    }
-    .col-6 .row {
-        flex-grow: 0;
-    }
-    /* strategic */
-    .planning-1-img figure {
-        padding:  50px 0px 130px 0;
-    }
-
-    .card-layout.card-planning-2 {
-        padding: 200px 0 15px 50px;
-    }
-
-
-
-
-    
-}
-/* after 570 px responsive */
-@media (min-width: 570px) {
-
-    .col-4 {
-        flex-basis: calc((100% / 12) * 4);
-    }
-     .col-8 {
-        flex-basis: calc((100% / 12) * 8);
-    }
-    
-    .col-12 {
-        flex-basis: calc((100% / 12) * 12);
-    }
-    
-    /* hero */
-    .row.card-body {
-        justify-content: flex-start;
-    }
-    /* strategic */
-    
-
-}
-
 /* hero */
 .card-body {
     background-color: var(--light-blue);
@@ -200,6 +138,7 @@ figure > img {
     justify-content: center;
     padding:20px;
 }
+
 .card-content {
     flex-grow: 1;
 }
@@ -244,9 +183,7 @@ figure > img {
 .card-lg-left .card-text {
     text-align: left;
 }
-.card-layout {
-    padding: 0 20px;
-}
+
 .phone {
     width: 200px;
     height: 250px;
@@ -283,6 +220,73 @@ figure > img {
 .testimonials {
     text-align: center;
 }
+
+/*after 768 px responsive  */
+@media (min-width: 768px) {
+
+    /* default settings */
+    .container {
+        width: 100%;
+    }
+    .container-small {
+        width: 100%;
+    }
+    .col-4 {
+        flex-basis: calc((100% / 12) * 4);
+    }
+    
+    .col-6 {
+        flex-basis: calc((100% / 12) * 6);
+    }
+    .col-8 {
+        flex-basis: calc((100% / 12) * 8);
+    }
+    
+    .col-12 {
+        flex-basis: calc((100% / 12) * 12);
+    }
+    
+   
+    /* navbar */
+
+    .hamburger-menu {
+        display: none;
+    }
+    .navbar-list {
+        display: flex;
+        gap: 22px;
+        align-items: center;
+    }
+
+    /* hero */
+
+    img.phone {
+        margin: 0 auto;
+    }
+    .card-button {
+        flex-grow: 2;
+    }
+    .col-6 .row {
+        flex-grow: 0;
+    }
+    /* strategic */
+    .planning-1-img figure {
+        padding:  50px 0px 130px 0;
+    }
+
+    .card-layout.card-planning-2 {
+        padding: 200px 0 15px 50px;
+    }
+
+}
+/*after 992 px responsive  */
+@media (min-width: 992px) {
+
+}
+
+
+
+
 
 /* debug */
 
