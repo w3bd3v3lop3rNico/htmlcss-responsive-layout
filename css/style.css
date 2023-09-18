@@ -338,6 +338,7 @@ figure > img {
     margin-bottom: 30px;
     color: var(--dark-grey);
 }
+
 .about-us-fig img {
     border-radius: 50%;
     aspect-ratio: 1;
@@ -346,6 +347,30 @@ figure > img {
     width: 200px;
     height: 200px;
     margin: 0 auto;
+}
+.about-us-fig {
+    position: relative;
+    margin-bottom: 30px;
+
+}
+.about-us-fig .quotation-marks {
+    position: absolute;
+    font-size: 50px;
+    color: var(--purple);
+    top: 0;
+    right: 5%;
+}
+
+.about-us .text-fig {
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--purple);
+    margin-bottom: 30px;
+}
+
+.about-us .button {
+    background-color: var(--purple);
+    color: var(--light);
 }
 
 
