@@ -101,6 +101,10 @@ figure > img {
 .padding-20 {
     padding: 20px;
 }
+.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 /* component classes */
@@ -245,9 +249,27 @@ figure > img {
 .testimonials {
     text-align: center;
     padding: 50px 0;
+    line-height: 25px;
 }
 .title-1 {
     text-transform: uppercase;
+}
+
+.testimonial-card {
+    background-color: var(--purple);
+    color: var(--light);
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.testimonial-fig img {
+    border-radius: 50%;
+    aspect-ratio: 1;
+    object-position: center;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
 }
 
 /*after 768 px responsive  */
@@ -305,6 +327,16 @@ figure > img {
 
     .card-layout.card-planning-2 {
         padding: 200px 0 15px 50px;
+    }
+
+    /* testimonials */
+
+    .testimonial-fig {
+        width: calc(100% /4);
+    }
+    
+    .testimonial-text {
+        width: calc((100% /4) *3);;
     }
 
 }
