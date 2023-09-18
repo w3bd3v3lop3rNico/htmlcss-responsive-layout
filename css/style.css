@@ -72,7 +72,7 @@ figure > img {
 }
     
 .col-6 {
-    width: 50%;
+    width: 100%;
 }
     
 .col-8 {
@@ -224,6 +224,13 @@ figure > img {
 .strategic-planning {
     background-color: var(--purple);
 }
+.strategic-planning .card-layout.card-body {
+    height: initial;
+    padding: 0;
+}
+.strategic-planning .card-planning {
+    padding: 80px;
+}
 
 .planning-1-img {
     padding: 40px 20px;
@@ -299,6 +306,11 @@ figure > img {
 }
 /*after 992 px responsive  */
 @media (min-width: 992px) {
+
+    .strategic-planning .card-planning-2 {
+        align-self: flex-end;
+        padding: 100px 0 0 100px;
+    }
 
 }
 
