@@ -350,7 +350,7 @@ figure > img {
 }
 .about-us-fig {
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 
 }
 .about-us-fig .quotation-marks {
@@ -365,7 +365,7 @@ figure > img {
     font-size: 30px;
     font-weight: bold;
     color: var(--purple);
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .about-us .button {
@@ -450,7 +450,11 @@ figure > img {
     /* about us */
 
     .cta-linkedin {
-        justify-content: center;
+        justify-content: flex-end;
+        padding-right: 30px;
+    }
+    .cta-linkedin .text-fig {
+        max-width: 200px;
     }
 }
 
