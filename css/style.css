@@ -375,7 +375,36 @@ figure > img {
 
 /* call to action */
 
+.call-to-action {
+    background-color: var(--purple);
+    padding: 25px 0;
+}
+.cta-container {
+    max-width: 600px;
+}
 
+.cta-body {
+    color: var(--light);
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 20px;
+}
+
+.cta-title {
+    text-align: center;
+}
+
+.cta-free-words {
+    font-weight: bold;
+    font-size: 40px;
+    color: var(--yellow);
+}
+
+.will-explain {
+    text-align: justify;
+    line-height: 30px;
+}
 
 
 
